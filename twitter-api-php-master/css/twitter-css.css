@@ -1,0 +1,43 @@
+.profile-image{
+    float: left;
+    border-radius: 10%;
+    margin: 15px 10px 0px 5px;
+}
+.name{
+    font-weight: bold;
+}
+.twitter-date{
+    float: right;
+    font-size: 10px;
+    color: gray;
+}
+.tweet-image{
+    max-width: 300px;
+}
+.screen-name{
+    color: gray;
+    font-size: 10px;
+}
+.insta-top{
+    height: 60px;
+    color: white;
+    background-color: #3f729b;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+.twitter-head{
+    height: 60px;
+    color: white;
+    background-color: #4099FF;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+.t-l{
+    width: 50px;
+}
+.tweet-box{
+    margin-top: 60px;
+}

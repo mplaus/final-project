@@ -1,0 +1,75 @@
+
+#nav-head{
+    height: 150px;
+    /*background-color: gray;*/
+   /* border-bottom: solid 1px black; */
+}
+#page-wrap{
+    margin-bottom: 50px;
+}
+
+.map-canvas{
+    border-radius: 5%;
+}
+.tool-bar{
+    height: 149px;
+}
+.logo{
+    height: 130px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+body {
+    background: url("../images/Winter_is_coming.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 1200px;
+}
+.twitter-top{
+    height: 40px;
+    border-top: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    padding: 0px 0px 0px 5px;
+    background-color: white;
+    margin: 0px 0px 0px 0px; 
+}
+.twitter-logo{
+    height: 65%;
+    width: 60px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.twitter-frame{
+    /*border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;*/
+    border-top: none;
+    width: 100%;
+    background-color: white;
+    min-height: 510px;
+    border-radius: 10px;
+}
+.insta-frame{
+    min-height: 400px;
+    border-bottom: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    width: 100%;
+    /*background-color: white;*/
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.tweet-head{
+    /*margin: 0px 10px 0px 0px;*/
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
