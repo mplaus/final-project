@@ -55,18 +55,18 @@ foreach($string['statuses'] as $items)
         
         
         
-        echo  "<div class='row tweet-box'>
+        echo  "<div class='row'>
                     <div class='col-xs-3 col-md-3'>
                         <img class='profile-image' src='" . $items['user']['profile_image_url_https'] . "'/> <br />
                     </div>";
         
         
-        echo "<div class='col-xs-6 col-md-7'>
-                <span class='name'>" . $user['name'] . "</span><span class='screen-name'> @" . $items['user']['screen_name'] . "</span></div>";
+        echo "<div class='col-xs-6 col-md-5'>
+                <span class='name'>" . $user['name'] . "</span><span class='screen-name'> @" . $items['user']['screen_name'] . "</span>";
         
         echo  "<div class='tweet'>" . $items['text'] . "</div><br />
         
-                </div>";
+               </div> ";
         
         
         
@@ -74,16 +74,18 @@ foreach($string['statuses'] as $items)
        
                 
         
-        echo        "<div class='col-xs-3 col-md-2'>
+        echo        "<div class='col-xs-3 col-md-4'>
                         <div class='twitter-date'>" . $date->format( 'M jS') . "</div><br />
                     </div>
                 </div>";
                 
         
          echo "<div class='row'>
-                    <div class='col-xs-12 col-md-12'>
+                    <div class='col-md-1'></div>
+                    <div class='col-xs-12 col-md-10'>
                         <img class='tweet-image' src='" . $tweetMedia['media_url'] . "'/> <br />
                     </div>
+                    <div class='col-md-1'></div>
                 </div>
                 </div>";
         
@@ -98,10 +100,7 @@ foreach($string['statuses'] as $items)
 echo "<pre>";
   //  print_r($string);
 echo "</pre>";
-
     echo "<script>pageComplete();</script>";
-
-
 ?>
 
 
